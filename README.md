@@ -40,9 +40,11 @@ Donc on a une notion de Personnes ( avec antecédent), un voiture ( appelons ca 
 
 Et cela retourne un tarif ( devis ?? ). Voila on est dans le schwarz !!! On arrive sur la problèmatique d'un SI. Les truc que l'on se passe il serve a quoi ??? 
 
-Et c'est la qu'arrive cette belle notion '...' . On va tenter de ne manipuler que ce type d'entite !! Que des 'choses' qui ont un sens metier ! 
+Et c'est la qu'arrive cette belle notion '...' . On va tenter de ne manipuler que ce type d'entite... Appelons cela des ressources !! Que des 'choses' qui ont un sens! 
 
-Et a partir de cela je dois pouvoir retrouver  tel machin . le sauvegarder le modifier et le suppr. .. WIP
+Et a partir de cela je dois pouvoir retrouver  tel machin . le sauvegarder le modifier et le suppr... 
+
+
 
 
 https://blog.octo.com/designer-une-api-rest/
