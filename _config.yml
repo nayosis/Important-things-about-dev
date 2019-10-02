@@ -22,8 +22,8 @@ title: Important-things-about-dev
 email: vincent.gouadon@serli.com
 description: >- # this means to ignore newlines until "baseurl:"
   Les petites choses du développement que l'on souhaite partagé
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Important-things-about-dev" # the subpath of your site, e.g. /blog
+url: "https://nayosis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nayosis
 github_username: nayosis
 gitlab_username: nayosis
