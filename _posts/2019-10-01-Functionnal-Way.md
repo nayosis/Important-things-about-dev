@@ -71,7 +71,7 @@ public class MegaExample
 {
 
     public List<Person> getPersonByYearAndByGender(List<Person> persons, Integer birthYear,String gender){
-        return persons.stream().filter(isGender(gender)).filter(isBirthYear(birthYear)).collect(Collectors.<Employee>toList());
+        return persons.stream().filter(isGender(gender)).filter(isBirthYear(birthYear)).collect(Collectors.<Person>toList());
     }
 
     private Predicate<Person> isGender(String gender){
