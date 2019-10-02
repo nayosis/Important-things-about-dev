@@ -68,13 +68,18 @@ Bon ca marche, cool ! Mais coté lisibilité c'est pas folichon ! Cote effet de 
 
 {% highlight java %}
 public class MegaExample
+{
 
-    .....
+    public List<Person> getPersonByYearAndByGender(List<Person> persons, Integer birthYear,String gender){
+        return persons.stream().filter(isGender(gender)).filter(isBirthYear(birthYear)).collect(Collectors.<Employee>toList());
+    }
 
-    private Boolean isGender( Person person, String gender){
-        return Optionnal.ofNullable(person.getGender())
-                .map ( innerGender -> innerGender.isEquals(gender))
-                .orElse( False);
+    private Predicate<Person> isGender(String gender){
+        return person -> person.getGender().isEquals(gender);
+    }
+
+    private Predicate<Person> isBirthYear(Integer birthYear){
+        return person -> person.getYear().isEquals(birthYear);
     }
 
   
