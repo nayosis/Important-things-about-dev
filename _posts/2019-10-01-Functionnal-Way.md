@@ -66,6 +66,10 @@ Bon ca marche, cool ! Mais coté lisibilité c'est pas folichon ! Cote effet de 
 
 ....
 
+
+> ![Vincent](https://www.gravatar.com/avatar/e9b64b8e63ca3e02d14d573eef9a9326?s=30) : ce serait bien de presenter les lambda, car c'est pas non plus super simple de prime abord .. Enfin en gros dire sur une variable peut contenir une fonction, car le Predicat, c'est cela en faite !
+
+
 {% highlight java %}
 public class MegaExample
 {
